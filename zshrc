@@ -20,5 +20,7 @@ antigen theme robbyrussell
 # Tell antigen that you're done.
 antigen-apply 
 
-alias l.="ll -d .??*"
+alias l.="ll -a"
+
+source $ZSHA_BASE/shrc_paths
 
