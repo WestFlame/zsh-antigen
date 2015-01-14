@@ -19,4 +19,4 @@ export CMAKE_PREFIX_PATH=${HOME}/local
 #export CC=clang
 #export CXX=clang++
 
-source ${0%/*}/shrc_certicon
+#source ${0%/*}/shrc_certicon
