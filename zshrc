@@ -19,6 +19,7 @@ antigen theme agnoster
 #antigen-theme $ZSHA_BASE/themes/mgdm/mgdm.zsh-theme
 
 DEFAULT_USER=`whoami`
+RPROMPT=$'%F{cyan}%*%f'
 
 # Tell antigen that you're done.
 antigen-apply 
