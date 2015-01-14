@@ -14,8 +14,11 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
 
 # Load the theme.
-antigen theme robbyrussell
+#antigen theme robbyrussell
+antigen theme agnoster
 #antigen-theme $ZSHA_BASE/themes/mgdm/mgdm.zsh-theme
+
+DEFAULT_USER=`whoami`
 
 # Tell antigen that you're done.
 antigen-apply 
