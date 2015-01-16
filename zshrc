@@ -25,7 +25,7 @@ RPROMPT=$'%F{cyan}%*%f'
 # Tell antigen that you're done.
 antigen-apply
 
-alias l.="ll -a"
+alias l.="ls -ld .*"
 
 source $ZSHA_BASE/shrc_paths
 
