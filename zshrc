@@ -28,6 +28,3 @@ antigen-apply
 alias l.="ls -ld .*"
 alias ld="ll -d */"
 alias lf="ll -p | grep -v /"
-
-source $ZSHA_BASE/shrc_paths
-
