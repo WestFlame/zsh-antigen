@@ -19,6 +19,6 @@ export CMAKE_PREFIX_PATH=${HOME}/local
 #export CC=clang
 #export CXX=clang++
 
-export PATH="${HOME}/.repos/linuxbrew/bin:$PATH"
-export MANPATH="${HOME}/.repos/linuxbrew/share/man:$MANPATH"
-export INFOPATH="${HOME}/.repos/linuxbrew/share/info:$INFOPATH"
+#export PATH="${HOME}/.repos/linuxbrew/bin:$PATH"
+#export MANPATH="${HOME}/.repos/linuxbrew/share/man:$MANPATH"
+#export INFOPATH="${HOME}/.repos/linuxbrew/share/info:$INFOPATH"
