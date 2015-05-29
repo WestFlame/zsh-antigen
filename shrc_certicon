@@ -1,8 +1,8 @@
-TEXLIVE=${HOME}/local/texlive/2014
+export TEXLIVE=${HOME}/local/texlive/2014
 
-[[ ":$PATH:" =~ ":${TEXLIVE}/bin/x86_64-linux:" ]] || PATH="${TEXLIVE}/bin/x86_64-linux:$PATH"
+[[ ":$PATH:" =~ ":${TEXLIVE}/bin/x86_64-linux:" ]] || export PATH="${TEXLIVE}/bin/x86_64-linux:$PATH"
 
-#[[ ":$MANPATH:" =~ ":${TEXLIVE}/texmf/doc/man:" ]] || MANPATH="${TEXLIVE}/texmf/doc/man:$MANPATH"
-#[[ ":$INFOPATH:" =~ ":${TEXLIVE}/texmf/doc/info:" ]] || INFOPATH="${TEXLIVE}/texmf/doc/info:$INFOPATH"
+#[[ ":$MANPATH:" =~ ":${TEXLIVE}/texmf/doc/man:" ]] || export MANPATH="${TEXLIVE}/texmf/doc/man:$MANPATH"
+#[[ ":$INFOPATH:" =~ ":${TEXLIVE}/texmf/doc/info:" ]] || export INFOPATH="${TEXLIVE}/texmf/doc/info:$INFOPATH"
 
-[[ ":$PATH:" =~ ":${HOME}/programy/anaconda/bin:" ]] || PATH="${HOME}/programy/anaconda/bin:$PATH"
+[[ ":$PATH:" =~ ":${HOME}/programy/anaconda/bin:" ]] || export PATH="${HOME}/programy/anaconda/bin:$PATH"
