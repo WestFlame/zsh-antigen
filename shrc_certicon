@@ -5,4 +5,4 @@ export TEXLIVE=${HOME}/local/texlive/2014
 #[[ ":$MANPATH:" =~ ":${TEXLIVE}/texmf/doc/man:" ]] || export MANPATH="${TEXLIVE}/texmf/doc/man:$MANPATH"
 #[[ ":$INFOPATH:" =~ ":${TEXLIVE}/texmf/doc/info:" ]] || export INFOPATH="${TEXLIVE}/texmf/doc/info:$INFOPATH"
 
-[[ ":$PATH:" =~ ":${HOME}/programy/anaconda/bin:" ]] || export PATH="${HOME}/programy/anaconda/bin:$PATH"
+[[ ":$PATH:" =~ ":${HOME}/programy/anaconda3/bin:" ]] || export PATH="${HOME}/programy/anaconda3/bin:$PATH"
