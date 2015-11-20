@@ -28,3 +28,5 @@ antigen-apply
 alias l.="ls -ld .*"
 alias ld="ll -d */"
 alias lf="ll -p | grep -v /"
+
+alias ccat="pygmentize -g -O style=colorful,lineos=1
