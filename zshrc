@@ -29,4 +29,10 @@ alias l.="ls -ld .*"
 alias ld="ll -d */"
 alias lf="ll -p | grep -v /"
 
+alias stl="stow -d ${HOME}/local/stow -t ${HOME}/local"
+alias stc="stow -t ${HOME}"
+
 alias ccat="pygmentize -g -O style=colorful,lineos=1"
+
+alias to="tig origin"
+alias grp="gsta; grb origin; gstp"
