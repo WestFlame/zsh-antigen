@@ -6,6 +6,7 @@
 export EDITOR='nano'
 
 LOCAL_PATH="${HOME}/local"
+STOW_DIR="${HOME}/local/stow"
 
 [[ ":$PKG_CONFIG_PATH:" =~ ":${LOCAL_PATH}/lib/pkgconfig:" ]] || export PKG_CONFIG_PATH="${LOCAL_PATH}/lib/pkgconfig:$PKG_CONFIG_PATH"
 
@@ -13,6 +14,7 @@ LOCAL_PATH="${HOME}/local"
 
 [[ ":$PATH:" =~ ":${LOCAL_PATH}/bin:" ]] || export PATH="${LOCAL_PATH}/bin:$PATH"
 [[ ":$MANPATH:" =~ ":${LOCAL_PATH}/share/man:" ]] || export MANPATH="${LOCAL_PATH}/share/man:$MANPATH"
+[[ ":$INFOPATH:" =~ ":${LOCAL_PATH}/share/info:" ]] || export INFOPATH="${LOCAL_PATH}/share/info:$INFOPATH"
 
 #export CMAKE_INCLUDE_PATH=${HOME}/local/include
 #export CMAKE_LIBRARY_PATH=${HOME}/local/lib
